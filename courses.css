@@ -1,0 +1,49 @@
+*{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #6c63ff;
+    --color-success: #00bf8e;
+    --color-warining: #f7c94b;
+    --color-danger: #f75842;
+    --color-danger-variant: rgba(247, 88, 66, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.7);
+    --color-black: #000;
+    --color-bg: #142641;
+    --color-bg1: #2e3267;
+    --color-bg2: #424890;
+    --container-width-1g: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+    --transition: all 400ms ease;
+}
+
+.courses1{
+    margin-top: 10vh;
+    width: var(--container-width-1g);
+    margin: 12vh auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+
+
+/* ================== media queries ============================= */
+
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:999px){
+
+}
+
+@media screen and (max-width:600px){
+   
+}
