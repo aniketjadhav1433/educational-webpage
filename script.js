@@ -4,25 +4,25 @@ let questions = document.querySelectorAll(".faq-box")
 let menu = document.querySelector(".menu")
 let options = document.querySelector(".options2")
 let form  = document.querySelector("form")
-let span = document.querySelector(".faq-box .material-symbols-outlined")
+
+
 
 questions.forEach((que)=>{
 
     que.addEventListener("click",()=>{
-
         que.classList.toggle("show")
 
+        let addIcon = que.querySelector("#add")
 
-            if (span.textContent === "add") {
-                span.textContent = "remove"
-            }else{
-                span.textContent = "add"
-            }
+        if (addIcon.textContent == "add") {
+            addIcon.textContent = "remove"
+        }else{
+            addIcon.textContent  = "add"
+        }
     })
 
+
 })
-
-
 
 
 menu.addEventListener("click",()=>{
