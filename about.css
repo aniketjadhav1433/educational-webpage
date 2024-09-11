@@ -116,6 +116,11 @@ Box-sizing: border-box;
     overflow: hidden;
     height: 80%;
     position: relative;
+    box-shadow:  5px 5px 10px var(--color-white),
+                 5px 5px 10px var(--color-danger),
+                 5px 5px 10px var(--color-success)
+    ;
+
 }
 
 .soc-icon{

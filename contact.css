@@ -41,6 +41,7 @@ textarea{
     margin: 12vh auto;
     padding: 20px;
     border-radius: 20px;
+    box-shadow: 20px 20px 10px var(--color-bg1);
 }
 .contact-left img{  
     height: 50%;
